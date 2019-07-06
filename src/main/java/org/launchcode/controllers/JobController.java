@@ -59,5 +59,7 @@ public class JobController {
         jobData.add(newJob);
 
         return "redirect:?id=" + newJob.getId();
+//        return "job-detail";
+
     }
 }
